@@ -35,6 +35,10 @@ The Workshop Management System is a web-based application designed to facilitate
 
 ## Author 🧑‍💻
 - Abhisheksingh(https://github.com/abhisheksinghf)
+  
+[![Instagram](https://img.shields.io/badge/Instagram-Profile-blue?logo=instagram)](https://www.instagram.com/abhisheksingh_r_f/)
+  
+
 
 ## Credits 🙌
 This project was developed by Abhisheksingh
