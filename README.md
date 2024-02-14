@@ -40,4 +40,4 @@ The Workshop Management System is a web-based application designed to facilitate
 This project was developed by Abhisheksingh
 
 ## License 📝
-This project is licensed under the [License Name] License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
