@@ -146,7 +146,7 @@
 <body>
     <header>
         <h1>Admin Panel</h1>
-        <a href="logout.php">Logout</a>
+        <a href="../logout.php">Logout</a>
     </header>
     <main>
     <h3>WORKSHOPS</h3>
@@ -229,7 +229,7 @@
             $workshopLocation = $row["workshop_location"];
 
             // Generate HTML for the workshop card
-            echo '<a href="display.php?workshopId=' . $workshopId . '">';
+            echo '<a href="display?workshopId=' . $workshopId . '">';
             echo '<div class="workshop-card">';
             echo '<h3>' . $workshopName . '</h3>';
             echo '<p>ID: ' . $workshopId . '</p>';

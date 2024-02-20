@@ -1,1 +1,22 @@
-DirectoryIndex index.html
+Options +FollowSymLinks
+RewriteEngine On
+
+# Hide .php extension
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+# Rewrite rule for login page
+RewriteRule ^login/?$ login.php [NC,L]
+
+# Rewrite rule for register page
+RewriteRule ^register/?$ register.php [NC,L]
+
+# Rewrite rules for pages
+RewriteRule ^active/?$ pages/active.php [NC,L]
+RewriteRule ^admin-dashboard/?$ pages/admin_dashboard.php [NC,L]
+RewriteRule ^data-analysis/?$ pages/data_analysis.php [NC,L]
+RewriteRule ^display/?$ pages/display.php [NC,L]
+RewriteRule ^export/?$ pages/export.php [NC,L]
+RewriteRule ^process/?$ pages/process.php [NC,L]
+RewriteRule ^success/?$ pages/success.html [NC,L]

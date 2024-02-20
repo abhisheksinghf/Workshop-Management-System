@@ -17,7 +17,7 @@ if(isset($_POST["btnlogin"])) {
         if (password_verify($password, $hashedPassword)) {
             if ($row["role"] == "admin") {
                 $_SESSION['LoginAdmin'] = $row["user_name"];
-                header('Location: pages/admin_dashboard.php');
+                header('Location: pages/admin_dashboard');
                 exit;
             }
         } else {
